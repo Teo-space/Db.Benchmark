@@ -1,0 +1,62 @@
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+Ulid OrderId Saved as Guid
+
+94% Percentile
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersBatchResults
+Total: 424.148 sec
+Min : 1163 msec
+Max : 22071 msec
+Average : 4512,212 msec
+Median : 2093 msec
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersSinglesResults
+Total: 8.838 sec
+Min : 84 msec
+Max : 443 msec
+Average : 94,021 msec
+Median : 86 msec
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+Ulid OrderId Saved as varchar(26)
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersBatchResults
+Total: 103.132 sec
+Min : 975 msec
+Max : 1628 msec
+Average : 1097,148 msec
+Median : 1042 msec
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersSinglesResults
+Total: 8.661 sec 
+Min : 83 msec
+Max : 229 msec
+Average : 92,138 msec
+Median : 85 msec
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+long OrderId
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersBatchResults
+Total: 118,795 sec
+Min : 1192 msec
+Max : 1507 msec
+Average : 1263,776595744681 msec
+Median : 1249 msec
+
+[Db.Benchmark.Scenarios.Inserts]
+OrdersSinglesResults
+Total: 9,819 sec
+Min : 91 msec
+Max : 138 msec
+Average : 104,45744680851064 msec
+Median : 100 msec
