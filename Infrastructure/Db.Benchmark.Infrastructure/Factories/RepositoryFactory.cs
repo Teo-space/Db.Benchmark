@@ -1,6 +1,4 @@
-﻿using Db.Benchmark.Infrastructure.EntityFramework.DbContexts;
-using Db.Benchmark.Infrastructure.Repositories;
-using Db.Benchmark.Interfaces;
+﻿using Db.Benchmark.Infrastructure.Repositories;
 using Db.Benchmark.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 

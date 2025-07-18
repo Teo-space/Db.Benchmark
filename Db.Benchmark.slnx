@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Common/">
+    <File Path=".editorconfig" />
+    <Project Path="Common/Printer/Printer.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="Core/Db.Benchmark.Domain/Db.Benchmark.Domain.csproj" />
+    <Project Path="Core/Db.Benchmark.Interfaces/Db.Benchmark.Interfaces.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/Db.Benchmark.Infrastructure/Db.Benchmark.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Scenarios/">
+    <Project Path="Scenarios/Db.Benchmark.Scenarios.Inserts/Db.Benchmark.Scenarios.Inserts.csproj" />
+    <Project Path="Scenarios/Db.Benchmark.Scenarios.ReadRange/Db.Benchmark.Scenarios.ReadRange.csproj" />
+    <Project Path="Scenarios/Db.Benchmark.Scenarios.ReadUpdate/Db.Benchmark.Scenarios.ReadUpdate.csproj" />
+    <Project Path="Scenarios/Db.Benchmark.Scenarios.ReadWrite/Db.Benchmark.Scenarios.ReadWrite.csproj" />
+    <Project Path="Scenarios/Db.Benchmark.Scenarios.SimpleTest/Db.Benchmark.Scenarios.SimpleTest.csproj" />
+  </Folder>
+</Solution>

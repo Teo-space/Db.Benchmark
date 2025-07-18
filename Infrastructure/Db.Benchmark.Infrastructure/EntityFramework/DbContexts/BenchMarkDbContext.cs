@@ -8,7 +8,7 @@ using System.Reflection;
 
 namespace Db.Benchmark.Infrastructure.EntityFramework.DbContexts;
 
-internal class BenchMarkDbContext : DbContext
+internal class BenchMarkDbContext(DbContextOptions<DbContext> options) : DbContext(options)
 {
 	public DbSet<DeliveryStatus> DeliveryStatuses { get; set; }
 	public DbSet<DeliveryType> DeliveryTypes { get; set; }
@@ -22,11 +22,6 @@ internal class BenchMarkDbContext : DbContext
 	public DbSet<Maker> Makers { get; set; }
 	public DbSet<ProductType> ProductTypes { get; set; }
 	public DbSet<Product> Products { get; set; }
-
-	public BenchMarkDbContext(DbContextOptions<DbContext> options) : base(options)
-	{
-		//base.Database.EnsureCreated();
-	}
 
 #if DEBUG
 	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
